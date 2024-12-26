@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    height: 100vh;
+}
+.navbar-facebook{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(46, 46, 46);
+    border-bottom: 1px solid rgb(80, 80, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+
+}
+.nav-left{
+    position: relative;
+    left: 1%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+    z-index: 3;
+    cursor: pointer;
+}
+.nav-center{
+    width: 30%;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(182, 182, 182);
+}
+.nav-center i{
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.nav-center i:hover{
+    color: blue;
+}
+.underline{
+    width: 70px;
+    height: 2px;
+    background-color:rgb(0, 47, 255) ;
+    position: absolute;
+    left: 60.5%;
+    top: 9.9%;
+}
+.nav-right{
+    position: relative;
+    right: 2%;
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+    gap: 4%;
+}
+
+.nav-right input{
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+.nav-right input::placeholder{
+    position: relative;
+    left: 50%;
+    color:rgb(177, 177, 177) ;
+    font-weight: 300;
+}
+.jihatitisal{
+    width: 20%;
+    height: 70vh;
+    position: relative;
+    top: 4%;
+}
+.jihatitisal .title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+.jihatitisal .nn{
+    color:rgb(182, 182, 182) ;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    cursor: not-allowed;
+}
+
+.poste{
+    position: relative;
+    bottom:68%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 480px;
+}
+.LCARD{
+    width: 480px;
+    height: 100px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 15px;
+}
+.watsonyourminde{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 5px;
+}
+.watsonyourminde input{
+    width: 85%;
+    height: 33px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+.watsonyourminde input::placeholder{
+    position: relative;
+    left: 78%;
+    color:rgb(206, 206, 206) ;
+    font-weight: 300;
+    font-size: 13px;
+}
+.LCARD .line111{
+    width: 90%;
+    height: 2px;
+    opacity: 0.7;
+    background-color: rgb(73, 73, 73);
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.ltht{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 25%;
+}
+.storys{
+    position: relative;
+    left: 0;
+    bottom: 160px;
+}
+.story{
+    width:110px;  
+      height:200px;
+      border-radius:10px;
+      position:absolute ;
+      top:180px;
+      left:10px;
+  }
+  .colo{
+      width:109px;
+      height:90px;
+      background-color:rgb(73, 73, 73);
+      position:absolute ;
+      top:290px;
+      left:9px;
+      border-radius:0% 0% 10px 10px;
+      border :1px solid rgb(73, 73, 73);
+  }
+  .creatnew{
+      font-family: "Roboto",sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      position: absolute;
+      top: 360px;
+      left: 35px;
+      color: aliceblue;
+  }
+  .mincercle{
+      width:50px;
+      height:50px;
+      background-color: rgb(73, 73, 73);
+      border-radius:50%;
+      position:absolute ;
+      top:265px;
+      left:35px;
+      z-index: 12;
+  }
+  
+  
+  .story2{
+    width:110px;  
+      height:200px;
+      background: url(image/STORY3.jpg) no-repeat;
+      background-size: cover;
+      background-position-x: -30px;
+      border-radius:10px;
+      position:absolute ;
+      top:180px;
+      left:130px;
+  }
+  
+  .foto2{
+      width:40px;
+      height:40px;
+      background-color:black;
+      border-radius:50%;
+      position:absolute ;
+      top:190px;
+      left:140px;
+  }
+  
+   .story3{
+    width:110px;  
+      height:200px;
+      background: url(image/STORY2.jpg);
+      background-size: cover;
+      border-radius:10px;
+      position:absolute ;
+      top:180px;
+      left:250px;
+  }
+  
+  .foto3{
+      width:40px;
+      height:40px;
+      background-color:black;
+      border-radius:50%;
+      position:absolute ;
+      top:190px;
+      left:260px;
+  }
+  /* HTML: <div class="loader"></div> */
+.loader {
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #086cee #0000;
+    animation: l1 1s infinite;
+    position: relative;
+    top: 240px;
+    left: 80%;
+}
+@keyframes l1 {to{transform: rotate(.5turn)}}
+.postes{
+    width:480px; 
+    height: 185vh;
+    background-color: rgb(46, 46, 46);
+    border-radius: 15px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 250px;
+    color: aliceblue;
+    font-family: "Cabin", serif;
+    font-weight: 400;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.date{
+    font-size: 12px;
+    position: relative;
+    left: 75px;
+    bottom: 15px;
+    color: rgb(202, 202, 202);
+}
+.reactes{
+    display: flex;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+.linéé{
+    width: 90%;
+    height: 2px;
+    background-color: #616161;
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.text{
+    position: relative;
+    top: 65px;
+    left: 120px;
+}
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .nav-left{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+    .nav-center{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .jihatitisal{
+        opacity: 0;
+    }
+    .underline{
+        position: relative;
+        left: 320px;
+        top: 0;
+    }
+}
